@@ -382,6 +382,7 @@ header .navbar ul li a:hover {
   }
   .socials {
     margin-top: 12rem;
+    margin-bottom: 0;
   }
   .home .image img {
     margin-top: -12rem;
@@ -399,6 +400,13 @@ header .navbar ul li a:hover {
   .home .btn {
     position: absolute;
     margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .socials {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
   }
 }
 
