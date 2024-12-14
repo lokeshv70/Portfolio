@@ -403,7 +403,7 @@ header .navbar ul li a:hover {
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (min-width: 330px) and (max-width: 400px) {
   .socials {
     margin-top: 12rem;
     margin-bottom: 12rem;
