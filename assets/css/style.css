@@ -1554,20 +1554,29 @@ form .button-area {
   flex-direction: row-reverse;
 }
 .button-area button {
-  color: #fff;
+  color: #b2fffb;
   border: none;
   outline: none;
   font-size: 1.8rem;
   cursor: pointer;
-  border-radius: 7px;
-  padding: 13px 25px;
-  background: #2506ad;
+  border-radius: 50em;
+  border: 2px solid #b2fffb;
+  padding: 13px 37px;
+  background: linear-gradient(to right, #5936f5, #9c86ff);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   transition: 0.3s ease;
+  font-weight: bold;
   font-family: "Nunito", sans-serif;
 }
 .button-area button:hover {
-  background: #421cecf5;
+  background: #e5ecfb;
+  background: linear-gradient(to right, #e5ecfb, #b2fffb);
+  color:#5936f5;
+  border: 2px solid #6849f5;
+  box-shadow: 0 0 12px #b2fffb,
+  0 0 20px #e5ecfb, 0 0 22px #b2fffb,
+  0 0 50px #e5ecfb, 0 0 50px #e5ecfb;
+  font-weight: bold;
 }
 .button-area span {
   font-size: 17px;
@@ -1580,10 +1589,13 @@ form .button-area {
   left: 2px;
   font-size: 1.5rem;
   transition: 0.3s;
-  color: #fff;
+  color: #b2fffb;
+  font-weight: bold;
 }
 .button-area button:hover i {
   left: 8px;
+  color:#5936f5;
+  font-weight: bold;
 }
 /* contact section media queries starts */
 @media (max-width: 900px) {
