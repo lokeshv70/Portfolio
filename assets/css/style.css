@@ -932,10 +932,6 @@ h2.heading:hover {
   margin-right: 2rem;
 }
 
-.experience .box-container .long-text b {
-  display: inline-block;
-}
-
 .experience .box-container .long-text {
   display: inline-block; /* Prevents bullet from moving to the next line */
   white-space: normal; /* Allows line breaks within the text */
@@ -961,6 +957,10 @@ h2.heading:hover {
   text-align: left;
   padding: 1rem;
   padding-top: 1rem;
+}
+
+.experience .box-container .long-text b {
+  font-weight: bold;
 }
 
 /* experience media queries starts*/
