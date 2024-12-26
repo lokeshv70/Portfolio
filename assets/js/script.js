@@ -301,9 +301,6 @@ srtop.reveal('.button-area button', { delay: 600 });
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 400 });
 srtop.reveal('.work .heading', { interval: 600 });
-srtop.reveal('.work .container1', { interval: 600 });
-srtop.reveal('.work .worked-projects', { interval: 600 });
-srtop.reveal('.viewall', { delay: 600  });
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop1 = ScrollReveal({
@@ -314,10 +311,13 @@ const srtop1 = ScrollReveal({
 });
 
 /* SCROLL PROJECTS */
+srtop1.reveal('.work .container1', { interval: 600 });
+srtop1.reveal('.work .worked-projects', { interval: 600 });
 srtop1.reveal('.work .worked-projects h4', { interval: 600 });
 srtop1.reveal('.work .worked-projects p', { interval: 600 });
 srtop1.reveal('.work .worked-projects h5', { interval: 600 });
 srtop1.reveal('.work .icon-item', { interval: 200 });
+srtop1.reveal('.viewall', { delay: 600  });
 // srtop.reveal('.work .heading', { interval: 400 });
 
 
