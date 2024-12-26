@@ -226,7 +226,7 @@ document.getElementById('viewAllButton1').addEventListener('click', function() {
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
     origin: 'top',
-    distance: '80px',
+    distance: '77px',
     duration: 1000,
     reset: true
 });
@@ -292,6 +292,19 @@ srtop.reveal('.skills .container .bar', { delay: 400 });
 srtop.reveal('.skills .container .manual-heading', { delay: 600 });
 
 
+/* SCROLL CONTACT */
+srtop.reveal('.contact h2', { delay: 600 });
+srtop.reveal('.contact .container', { delay: 600 });
+srtop.reveal('.contact .container .form-group', { delay: 600 });
+srtop.reveal('.button-area button', { delay: 600 });
+
+/* SCROLL PROJECTS */
+srtop.reveal('.work .box', { interval: 400 });
+srtop.reveal('.work .heading', { interval: 600 });
+srtop.reveal('.work .container1', { interval: 600 });
+srtop.reveal('.work .worked-projects', { interval: 600 });
+srtop.reveal('.viewall', { delay: 600  });
+
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop1 = ScrollReveal({
     origin: 'top',
@@ -301,19 +314,10 @@ const srtop1 = ScrollReveal({
 });
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box', { interval: 400 });
-srtop.reveal('.work .heading', { interval: 600 });
-srtop.reveal('.work .container1', { interval: 600 });
-srtop1.reveal('.work .worked-projects', { interval: 600 });
 srtop1.reveal('.work .worked-projects h4', { interval: 600 });
 srtop1.reveal('.work .worked-projects p', { interval: 600 });
 srtop1.reveal('.work .worked-projects h5', { interval: 600 });
 srtop1.reveal('.work .icon-item', { interval: 200 });
 // srtop.reveal('.work .heading', { interval: 400 });
-srtop.reveal('.viewall', { delay: 600  });
 
 
-/* SCROLL CONTACT */
-srtop.reveal('.contact h2', { delay: 400 });
-srtop.reveal('.contact .container', { delay: 400 });
-srtop.reveal('.contact .container .form-group', { delay: 400 });
