@@ -518,6 +518,8 @@ header .navbar ul li a:hover {
   background: linear-gradient(to right, #5936f5, #9c86ff);
   transform: translateX(5px);
   padding: 1.7rem 3rem;
+  display:flex;
+  width: fit-content;
   border-radius: 50em;
   transition: 0.3s;
   /* color: #0000ff; */
@@ -536,12 +538,16 @@ header .navbar ul li a:hover {
   align-items: center;
   align-content: center;
   font-family: monospace;  
+
 }
 .resumebtn .btn i {
-  margin-left: 0.3rem;
+  margin-left: 0.5rem;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition: 0.1s;
+  height: top;
+  margin-top: 5px;
+  /* padding-left: 3px; */
   
 }
 .resumebtn .btn:hover {
